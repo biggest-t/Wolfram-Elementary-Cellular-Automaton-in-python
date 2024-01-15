@@ -1,7 +1,7 @@
 import pygame
 
 cells = []
-num = 50
+num = 5 
 
 for i in range(num):
     if i == round(num / 2):
@@ -9,7 +9,7 @@ for i in range(num):
     else:
         cells.append(0)
 
-ruleset = format(90, 'b') 
+ruleset = format(70, 'b') 
 length = len(ruleset)
 
 i = 8 - length
@@ -40,8 +40,8 @@ def update(cells):
 
 # constants
 
-HEIGHT = 800
-WIDTH = 800
+HEIGHT = 600
+WIDTH = 600 
 CELLSIZE = WIDTH / num # constant num is bad use  
 
 
